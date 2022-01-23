@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 737931432504948471, guid: aa6a62d6c90628f4c998a0e901740c7e, type: 3}
       propertyPath: m_MoveSpeed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 737931432547292418, guid: aa6a62d6c90628f4c998a0e901740c7e, type: 3}
       propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.size
