@@ -43,10 +43,10 @@ public class PuzzleManager : MonoBehaviour
 
     private IEnumerator LightUpCubes()
     {
+        yield return new WaitForSeconds(2f);
+
         for (int i = 0; i < totalBlinksInSequence; i++)
         {
-            yield return new WaitForSeconds(2f);
-
             // randomly light up one of the cubes
             int randomIndex = Random.Range(0, cubes.Count);
 
