@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
 
 // Game manager script for basic memory game
 public class PuzzleManager : MonoBehaviour
 {
     [SerializeReference] private List<GameObject> cubes;
     [SerializeField] private int totalBlinksInSequence = 3;
+    [SerializeField] private Text displayText;
 
     // the random sequence of cube indexes lit up
     private List<int> sequence = new List<int>();
@@ -20,6 +22,7 @@ public class PuzzleManager : MonoBehaviour
 
     private void Start()
     {
+        displayText.text = "Match the color sequence";
         StartCoroutine(LightUpCubes());
     }
 
@@ -72,10 +75,12 @@ public class PuzzleManager : MonoBehaviour
         {
             if (guesses.SequenceEqual(sequence))
             {
+                displayText.text = "Well done!";
                 Debug.Log("You Win!");
             } 
             else
             {
+                displayText.text = "Try Again...";
                 Debug.Log("You Lose");
                 // start sequence again
                 Restart();
