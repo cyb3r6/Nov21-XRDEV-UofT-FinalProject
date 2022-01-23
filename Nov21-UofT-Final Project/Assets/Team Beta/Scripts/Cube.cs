@@ -17,7 +17,10 @@ public class Cube : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        OnCubeCollision(gameObject);
+        if (OnCubeCollision != null)
+        {
+            OnCubeCollision(gameObject);
+        }
     }
 
     public void LightUp()

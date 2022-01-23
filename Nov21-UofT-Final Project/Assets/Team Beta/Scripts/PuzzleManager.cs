@@ -40,7 +40,10 @@ public class PuzzleManager : MonoBehaviour
         // unsubscribe from the event
         foreach (GameObject cube in cubes)
         {
-            cube.GetComponent<Cube>().OnCubeCollision -= OnCubeSelected;
+            if (!cube == null)
+            {
+                cube.GetComponent<Cube>().OnCubeCollision -= OnCubeSelected;
+            }
         }
     }
 
