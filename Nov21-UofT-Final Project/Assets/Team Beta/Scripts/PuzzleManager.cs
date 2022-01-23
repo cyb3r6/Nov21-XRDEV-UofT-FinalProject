@@ -6,14 +6,14 @@ using System.Linq;
 // Game manager script for basic memory game
 public class PuzzleManager : MonoBehaviour
 {
-    [SerializeReference] List<GameObject> cubes;
-    [SerializeField] int totalBlinksInSequence = 3;
-    
+    [SerializeReference] private List<GameObject> cubes;
+    [SerializeField] private int totalBlinksInSequence = 3;
+
     // the random sequence of cube indexes lit up
-    public List<int> sequence = new List<int>();
+    private List<int> sequence = new List<int>();
 
     // list of the player's guesses
-    public List<int> guesses = new List<int>();
+    private List<int> guesses = new List<int>();
 
     // whether or not the user is eligible to start guessing
     private bool userInteractionTracked = false;
