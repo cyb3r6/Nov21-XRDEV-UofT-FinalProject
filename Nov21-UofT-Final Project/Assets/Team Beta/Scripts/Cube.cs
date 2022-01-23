@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-    // color of the cube
-    [SerializeField] private Color color;
+    // lit color of the cube
+    [SerializeField] private Color litColor;
+    // default, unlit color of the cube
+    [SerializeField] private Color defaultColor;
     // cube's renderer
     [SerializeField] private Renderer renderer;
 
@@ -27,10 +29,10 @@ public class Cube : MonoBehaviour
     // Change the color back to the default after a brief pause
     private IEnumerator FlashCube()
     {
-        renderer.material.color = color;
+        renderer.material.color = litColor;
 
         yield return new WaitForSeconds(1.5f);
 
-        renderer.material.color = Color.white;
+        renderer.material.color = defaultColor;
     }
 }

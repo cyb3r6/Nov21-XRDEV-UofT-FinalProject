@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 42eaf2c5dbb13dc498f15df5a5b05fda, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.06615649, g: 0.15344906, b: 0.0577884, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -311,6 +311,18 @@ PrefabInstance:
     - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
       propertyPath: color.r
       value: 0.04650232
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.r
+      value: 0.010703921
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
@@ -625,8 +637,6 @@ MonoBehaviour:
   - {fileID: 973436119}
   - {fileID: 986257375}
   totalBlinksInSequence: 3
-  sequence: 
-  guesses: 
 --- !u!4 &455233746
 Transform:
   m_ObjectHideFlags: 0
@@ -1034,6 +1044,18 @@ PrefabInstance:
       propertyPath: color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.g
+      value: 0.2746606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.r
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
 --- !u!1001 &1997756890
@@ -1212,6 +1234,18 @@ PrefabInstance:
     - target: {fileID: 4010670321394016724, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010670321394016725, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
+      propertyPath: litColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad94d88351f7b9140aec4ee765d49e57, type: 3}
