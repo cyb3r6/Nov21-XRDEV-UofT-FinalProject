@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody), typeof(Collider))]
 
-public class MemoryCore : MonoBehaviour
+public class Collectable : MonoBehaviour
 {
     BoxCollider boxCollider;
     MeshRenderer meshRenderer;
