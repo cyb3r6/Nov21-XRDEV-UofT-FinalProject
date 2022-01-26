@@ -9,7 +9,7 @@ public class CubeController : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
-        collider = GetComponent<BoxCollider>();
+        collider = GetComponent<MeshCollider>();
 
         rigidbody.useGravity = false;
         rigidbody.isKinematic = true;
@@ -19,8 +19,13 @@ public class CubeController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        rigidbody.isKinematic = false;
-        rigidbody.useGravity = true;
-        collider.enabled = false;
+        GameObject obj = collision.gameObject;
+
+        if (obj.tag == "Rock" || obj.tag == "Player")
+        {
+            rigidbody.isKinematic = false;
+            rigidbody.useGravity = true;
+            collider.enabled = false;
+        }
     }
 }
