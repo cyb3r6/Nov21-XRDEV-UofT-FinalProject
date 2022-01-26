@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Team Gamma/Gamma.unity
+    guid: 33d793837df8ea147913fa7422eb8eca
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e35dab8687b1887488c7e1fd6d636dff, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c897f5546b7ab3c4086cb0c34ed235f7, type: 2}
