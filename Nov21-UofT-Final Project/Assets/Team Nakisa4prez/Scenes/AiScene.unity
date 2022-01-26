@@ -444,7 +444,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5468942569431369538, guid: 8583bb8a82208aa45a7edad5d091db8c, type: 3}
       propertyPath: m_Name
-      value: Ground
+      value: Mountain Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468942569431369548, guid: 8583bb8a82208aa45a7edad5d091db8c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5468942569431369551, guid: 8583bb8a82208aa45a7edad5d091db8c, type: 3}
       propertyPath: m_RootOrder
