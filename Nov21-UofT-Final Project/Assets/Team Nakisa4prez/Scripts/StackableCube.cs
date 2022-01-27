@@ -29,7 +29,7 @@ public class StackableCube : MoveableObject
 //timeExpiryText.text = "YOU WIN!!!!";
       //  }
 
-        Destroy(other.gameObject);
-        Destroy(gameObject);
+        //Destroy(other.gameObject);
+        //Destroy(gameObject);
     }
 }

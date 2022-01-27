@@ -10,7 +10,10 @@ public class CircuitSpawner : MonoBehaviour
 
     public void OnCircuit(CircuitContent.Circuit circuit)
     {
-        if(circuit != null)
+        correctPrefab = GameObject.Find("WinCube");
+        incorrectPrefab = GameObject.Find("LooseCube");
+
+        if (circuit != null)
         {
             Instantiate(correctPrefab);
         }

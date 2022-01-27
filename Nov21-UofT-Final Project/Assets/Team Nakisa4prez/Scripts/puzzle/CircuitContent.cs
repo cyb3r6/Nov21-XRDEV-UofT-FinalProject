@@ -43,8 +43,9 @@ public class CircuitContent : MonoBehaviour
     {
         CircuitComponent cComponent = other.attachedRigidbody.GetComponentInChildren<CircuitComponent>();
 
-        Vector3 contactPosition = other.attachedRigidbody.gameObject.transform.position;
-        contactPosition.y = gameObject.transform.position.y;
+        Vector3 contactPosition = transform.position;
+        contactPosition.z = contactPosition.z + 20;
+        //contactPosition.y = gameObject.transform.position.y;
 
         var spark = Instantiate(sparks, contactPosition, sparks.transform.rotation);
         Destroy(spark, 1);
@@ -70,6 +71,7 @@ public class CircuitContent : MonoBehaviour
     public void CircuitBuilding()
     {
         Debug.Log("circuit building");
+        Debug.Log(canComplete);
         if (!canComplete)
         {
             return;

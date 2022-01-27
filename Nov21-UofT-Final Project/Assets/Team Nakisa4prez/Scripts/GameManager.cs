@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text TMPTime;
     private TMP_Text timeExpiryText;
     public int countHits;
-    private float timeLeft = 30f; //1 minute ie. 60 seconds
+    private float timeLeft = 60f; //1 minute ie. 60 seconds
 
     // Start is called before the first frame update
     void Start()
