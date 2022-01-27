@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text TMPTime;
     private TMP_Text timeExpiryText;
     public int countHits;
+    public bool stoptimer;
     private float timeLeft = 60f; //1 minute ie. 60 seconds
 
     // Start is called before the first frame update
@@ -16,28 +17,34 @@ public class GameManager : MonoBehaviour
         //Initialize Timer
         TMPTime = GameObject.Find("TimeAmount").GetComponent<TMP_Text>();
         TMPTime.text = timeLeft.ToString();
-
+        stoptimer = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+       
         //Update Level Timer
         if (timeLeft != 0)
         {
-            timeLeft -= Time.deltaTime;
+            if (stoptimer != true)
+            {
+                timeLeft -= Time.deltaTime;
+            }
+                
             UpdateLevelTimer(timeLeft);
         }
-
+        
         //if time expired, show expiry message and shutdown app
         if (timeLeft <= 0)
-        {
-            timeExpiryText = GameObject.Find("TimeExpiryMsg").GetComponent<TMP_Text>();
-            timeExpiryText.text = "TIME EXPIRED";
-            timeLeft = 0;
-            UpdateLevelTimer(timeLeft);
-            Invoke("ShutdownApp", 5f);
-        }
+            {
+                timeExpiryText = GameObject.Find("TimeExpiryMsg").GetComponent<TMP_Text>();
+                timeExpiryText.text = "TIME EXPIRED";
+                timeLeft = 0;
+                UpdateLevelTimer(timeLeft);
+                Invoke("ShutdownApp", 5f);
+            }
+
     }
 
     private void UpdateLevelTimer(float totalSeconds)
