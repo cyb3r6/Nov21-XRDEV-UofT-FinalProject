@@ -1187,6 +1187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TMPTime: {fileID: 0}
   countHits: 0
+  stoptimer: 0
 --- !u!4 &477634255
 Transform:
   m_ObjectHideFlags: 0
@@ -2862,8 +2863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832d9c43259aaf84dba6dfa848836962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctPrefab: {fileID: 2541955456416802560, guid: fced4a2687d36e7478b50eb3e288746c, type: 3}
-  incorrectPrefab: {fileID: 301808195560718590, guid: c794bf260fafdc8479ffbac61075b3ca, type: 3}
+  correctPrefab: {fileID: 4838504900803738595, guid: 27ca152484bd0614798c682e6930e99f, type: 3}
+  incorrectPrefab: {fileID: 1786762193}
 --- !u!4 &1346316774
 Transform:
   m_ObjectHideFlags: 0

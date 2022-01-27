@@ -71,7 +71,6 @@ public class CircuitContent : MonoBehaviour
     public void CircuitBuilding()
     {
         Debug.Log("circuit building");
-        Debug.Log(canComplete);
         if (!canComplete)
         {
             return;
