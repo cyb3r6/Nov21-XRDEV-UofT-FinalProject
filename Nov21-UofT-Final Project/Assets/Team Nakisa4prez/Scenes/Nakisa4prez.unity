@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12501106, g: 0.09490261, b: 0.1255464, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -823,7 +823,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 72d2424463c2b1c4ba441ec45711d384, type: 2}
+  - {fileID: 2100000, guid: 8263212f17f4b6b4b80729c0ff649c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1539,6 +1539,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 27ca152484bd0614798c682e6930e99f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7beb3ef0a34ca394487f3edc0226d296, type: 2}
     - target: {fileID: 3684987174145994804, guid: 27ca152484bd0614798c682e6930e99f, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -2371,7 +2375,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: db0b173631080464b85da7de9685ddd1, type: 2}
+  - {fileID: 2100000, guid: 8263212f17f4b6b4b80729c0ff649c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2731,7 +2735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16b9f4dde95559642aedf51d16efbfd4, type: 2}
+  - {fileID: 2100000, guid: 8263212f17f4b6b4b80729c0ff649c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
