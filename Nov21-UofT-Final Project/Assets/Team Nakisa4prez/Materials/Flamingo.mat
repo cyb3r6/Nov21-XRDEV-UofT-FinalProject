@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Holograph
-  m_Shader: {fileID: 4800000, guid: cce5a927b956166469f62c3ddf0c1b36, type: 3}
-  m_ShaderKeywords: 
+  m_Name: Flamingo
+  m_Shader: {fileID: 4800000, guid: 59e67d5a2341d5d468fd3e78f68cd1da, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 9cbf7b0cb838b5b499dbc9161042cc90, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AmbientOcclusion:
-        m_Texture: {fileID: 2800000, guid: 5c882a4aa74b271479c5cf13fab0db9f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 5c23067fb62ebc9459e44df624b67817, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -67,7 +67,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
+    - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -79,33 +79,32 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Linethickness: 0.271226
-    - _Metallic: 0.28
-    - _Mode: 0
-    - _NoiseScale: 5
+    - _Linethickness: 0.2264668
+    - _Metallic: 0
+    - _Mode: 3
+    - _NoiseScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Range: 2.5
-    - _Slice: -0.13
-    - _Smoothness: 0.591
+    - _Range: 3
+    - _Slice: 1.327637
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _VertOffsetStrength: 0.482
-    - _ZWrite: 1
+    - _VertOffsetStrength: 0
+    - _ZWrite: 0
     - __dirty: 0
-    - _r: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Corecolour: {r: 2, g: 1.960784, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HoloColor: {r: 7.999999, g: 0.46073294, b: 0, a: 0}
-    - _Tiling: {r: 10, g: 1, b: 0, a: 0}
-    - _Tint: {r: 0.2117647, g: 1, b: 0.34124354, a: 0.8784314}
+    - _Color: {r: 1, g: 0.3443396, b: 0.54103786, a: 1}
+    - _EmissionColor: {r: 0.22647059, g: 0, b: 0.15196079, a: 1}
+    - _HoloColor: {r: 2, g: 0, b: 1.380392, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _Tiling: {r: 5, g: 5, b: 0, a: 0}
+    - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
