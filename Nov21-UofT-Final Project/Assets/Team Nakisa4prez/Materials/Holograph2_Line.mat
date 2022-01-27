@@ -24,8 +24,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AmbientOcclusion:
-        m_Texture: {fileID: 2800000, guid: 4626c7244a8e6874c9df74ac5b983b92, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 9961dae93a1905c4188e81f29b626b46, type: 3}
+        m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 7a980021189bea840aec964e1718b019, type: 3}
+        m_Texture: {fileID: 2800000, guid: f173ba3edf6877844bfe7dd2fe302a36, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -73,33 +73,33 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Linethickness: 0.959
-    - _Metallic: 0
+    - _Linethickness: 0.453
+    - _Metallic: 0.332
     - _Mode: 0
-    - _NoiseScale: 5.65
+    - _NoiseScale: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Range: 1.98
+    - _Range: 1
     - _Slice: -0.06
-    - _Smoothness: 0.691
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _VertOffsetStrength: 0.15
+    - _VertOffsetStrength: 0.127
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HoloColor: {r: 6.883182, g: 0, b: 6.883182, a: 0}
+    - _HoloColor: {r: 0.61451596, g: 0.74341446, b: 0.20084181, a: 0}
     - _Tiling: {r: 10, g: 1, b: 0, a: 0}
-    - _Tint: {r: 0.5372549, g: 0.4166977, b: 0, a: 0}
+    - _Tint: {r: 0.53690845, g: 0.5372549, b: 0.19215684, a: 0}
   m_BuildTextureStacks: []

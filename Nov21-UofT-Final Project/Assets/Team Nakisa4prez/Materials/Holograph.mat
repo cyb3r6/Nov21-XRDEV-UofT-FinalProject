@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 9cbf7b0cb838b5b499dbc9161042cc90, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AmbientOcclusion:
-        m_Texture: {fileID: 2800000, guid: 5c882a4aa74b271479c5cf13fab0db9f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9961dae93a1905c4188e81f29b626b46, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 5c23067fb62ebc9459e44df624b67817, type: 3}
+        m_Texture: {fileID: 2800000, guid: f173ba3edf6877844bfe7dd2fe302a36, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -84,20 +84,20 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Linethickness: 0.271226
-    - _Metallic: 0.28
+    - _Metallic: 1
     - _Mode: 0
     - _NoiseScale: 5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Range: 2.5
-    - _Slice: -0.13
+    - _Range: 3
+    - _Slice: -0.08
     - _Smoothness: 0.591
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
+    - _Speed: 20
     - _SrcBlend: 1
     - _UVSec: 0
-    - _VertOffsetStrength: 0.482
+    - _VertOffsetStrength: 0
     - _ZWrite: 1
     - __dirty: 0
     - _r: 0
@@ -105,7 +105,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Corecolour: {r: 2, g: 1.960784, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HoloColor: {r: 7.999999, g: 0.46073294, b: 0, a: 0}
-    - _Tiling: {r: 10, g: 1, b: 0, a: 0}
+    - _HoloColor: {r: 0, g: 1.6554601, b: 7.999999, a: 0}
+    - _Tiling: {r: 100, g: 100, b: 0, a: 0}
     - _Tint: {r: 0.2117647, g: 1, b: 0.34124354, a: 0.8784314}
   m_BuildTextureStacks: []
