@@ -10,6 +10,10 @@ public class StayOnPedestal : MonoBehaviour
     //  5: Red
 
     public bool sphere1Correct = false;
+    public bool sphere2Correct = false;
+    public bool sphere3Correct = false;
+    public bool sphere4Correct = false;
+    public bool sphere5Correct = false;
     public int correctSphereValue;
     private int insertedSphereValue;
     private bool occupied = false;
@@ -50,29 +54,38 @@ public class StayOnPedestal : MonoBehaviour
         if (correctSphereValue == insertedSphereValue)
         {
             sphere1Correct = true;
-            Debug.Log("Correct sphere placed!");
+            Debug.Log("First correct sphere placed. Keep trying!");
 
             switch(insertedSphereValue)
             {
                 case 1:
-                    Debug.Log("Blue sphere placed");
+                    Debug.Log("Blue sphere correctly placed");
+                    sphere1Correct = true;
                     break;
                 case 2:
-                    Debug.Log("Green sphere placed");
+                    Debug.Log("Green sphere correctly placed");
+                    sphere2Correct = true;
                     break;
                 case 3:
-                    Debug.Log("Yellow sphere placed");
+                    Debug.Log("Yellow sphere correctly placed");
+                    sphere3Correct = true;
                     break;
                 case 4:
-                    Debug.Log("Purple sphere placed");
+                    Debug.Log("Purple sphere correctly placed");
+                    sphere4Correct = true;
                     break;
                 case 5:
-                    Debug.Log("Red sphere placed");
+                    Debug.Log("Red sphere correctly placed");
+                    sphere5Correct = true;
                     break;
                 default: 
                     break;
             }
+        }
 
+        if (sphere1Correct && sphere2Correct && sphere3Correct && sphere4Correct && sphere5Correct)
+        {
+            Debug.Log("Congratulations!! You wni! Pretend a door opened somewhere.");
         }
     }
 
