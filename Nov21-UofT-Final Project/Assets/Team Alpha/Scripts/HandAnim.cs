@@ -11,6 +11,9 @@ public class HandAnim : MonoBehaviour
     private InputActionProperty flex;
     [SerializeField]
     private InputActionProperty point;
+    [SerializeField]
+    
+    private InputActionProperty thumbs;
     public void Awake()
     {
         animator = GetComponent<Animator>();
@@ -18,6 +21,7 @@ public class HandAnim : MonoBehaviour
     public void Update()
     {
         animator.SetFloat("ControllerSelect", flex.action.ReadValue<float>());
-        animator.SetFloat("ControllerActivate", point.action.ReadValue<float>());
+        animator.SetFloat("ControllerActive", point.action.ReadValue<float>());
+        animator.SetFloat("ControllerActivate", thumbs.action.ReadValue<float>());
     }
 }
