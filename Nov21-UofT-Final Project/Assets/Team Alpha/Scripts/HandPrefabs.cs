@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HandPrefab : MonoBehaviour
+public class HandPrefabs : MonoBehaviour
 {
     public Animator animator;
 }
