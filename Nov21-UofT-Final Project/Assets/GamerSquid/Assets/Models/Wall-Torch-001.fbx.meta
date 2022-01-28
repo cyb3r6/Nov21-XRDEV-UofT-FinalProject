@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: a404084de17797a46aa2583339c54934
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fire-Guard-001
+    100002: Fire-Guard-002
+    100004: Fire-Guard-003
+    100006: Fire-Guard-004
+    100008: Fire-Guard-005
+    100010: Fire-Guard-006
+    100012: Fire-Pot
+    100014: Handle
+    100016: Handle-Pommel
+    100018: Ring-Lrg
+    100020: Ring-Med
+    100022: Ring-Small
+    100024: Wall-mount
+    100026: Wall-Mount-Arm
+    100028: //RootNode
+    100030: Handle.002
+    100032: Wall-Mount
+    400000: Fire-Guard-001
+    400002: Fire-Guard-002
+    400004: Fire-Guard-003
+    400006: Fire-Guard-004
+    400008: Fire-Guard-005
+    400010: Fire-Guard-006
+    400012: Fire-Pot
+    400014: Handle
+    400016: Handle-Pommel
+    400018: Ring-Lrg
+    400020: Ring-Med
+    400022: Ring-Small
+    400024: Wall-mount
+    400026: Wall-Mount-Arm
+    400028: //RootNode
+    400030: Handle.002
+    400032: Wall-Mount
+    2100000: Handle-Pommel
+    2100002: Wal-lMount
+    2100004: Wall-Mount-Arm
+    2100006: Ring-Small
+    2100008: Ring-Med
+    2100010: Ring-Lrg
+    2100012: Fire-Pot
+    2100014: Handle
+    2100016: Fire-Guard
+    2300000: Fire-Guard-001
+    2300002: Fire-Guard-002
+    2300004: Fire-Guard-003
+    2300006: Fire-Guard-004
+    2300008: Fire-Guard-005
+    2300010: Fire-Guard-006
+    2300012: Fire-Pot
+    2300014: Handle
+    2300016: Handle-Pommel
+    2300018: Ring-Lrg
+    2300020: Ring-Med
+    2300022: Ring-Small
+    2300024: Wall-mount
+    2300026: Wall-Mount-Arm
+    2300028: Handle.002
+    2300030: Wall-Mount
+    3300000: Fire-Guard-001
+    3300002: Fire-Guard-002
+    3300004: Fire-Guard-003
+    3300006: Fire-Guard-004
+    3300008: Fire-Guard-005
+    3300010: Fire-Guard-006
+    3300012: Fire-Pot
+    3300014: Handle
+    3300016: Handle-Pommel
+    3300018: Ring-Lrg
+    3300020: Ring-Med
+    3300022: Ring-Small
+    3300024: Wall-mount
+    3300026: Wall-Mount-Arm
+    3300028: Handle.002
+    3300030: Wall-Mount
+    4300000: Handle-Pommel
+    4300002: Wall-mount
+    4300004: Wall-Mount-Arm
+    4300006: Ring-Small
+    4300008: Ring-Med
+    4300010: Ring-Lrg
+    4300012: Fire-Pot
+    4300014: Handle
+    4300016: Fire-Guard-006
+    4300018: Fire-Guard-005
+    4300020: Fire-Guard-004
+    4300022: Fire-Guard-003
+    4300024: Fire-Guard-002
+    4300026: Fire-Guard-001
+    4300028: Wall-Mount
+    4300030: Handle.002
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

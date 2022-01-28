@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: acee5c2a15fcd6a4699b3e8d23235298
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arc-Mesh-001
+    100002: Arc-Mesh-002
+    100004: Arc-Mesh-003
+    100006: Arc-Mesh-004
+    100008: Arc-Mesh-005
+    100010: Base-Ring.001
+    100012: Candle-Holder-001.001
+    100014: Candle-Holder-002.001
+    100016: Candle-Holder-003.001
+    100018: Candle-Holder-004.001
+    100020: Candle-Holder-005.001
+    100022: Candle-Holder-Arm-001
+    100024: Candle-Holder-Arm-002
+    100026: Candle-Holder-Arm-003
+    100028: Candle-Holder-Arm-004
+    100030: Candle-Holder-Arm-005
+    100032: //RootNode
+    100034: Center-Support
+    100036: Chain-Link-001
+    100038: Chain-Link-002
+    100040: Chain-Link-003
+    100042: Chain-Link-004
+    100044: Chain-Link-005
+    100046: Chain-Link-006
+    100048: Chain-Link-007
+    100050: Chain-Link-008
+    400000: Arc-Mesh-001
+    400002: Arc-Mesh-002
+    400004: Arc-Mesh-003
+    400006: Arc-Mesh-004
+    400008: Arc-Mesh-005
+    400010: Base-Ring.001
+    400012: Candle-Holder-001.001
+    400014: Candle-Holder-002.001
+    400016: Candle-Holder-003.001
+    400018: Candle-Holder-004.001
+    400020: Candle-Holder-005.001
+    400022: Candle-Holder-Arm-001
+    400024: Candle-Holder-Arm-002
+    400026: Candle-Holder-Arm-003
+    400028: Candle-Holder-Arm-004
+    400030: Candle-Holder-Arm-005
+    400032: //RootNode
+    400034: Center-Support
+    400036: Chain-Link-001
+    400038: Chain-Link-002
+    400040: Chain-Link-003
+    400042: Chain-Link-004
+    400044: Chain-Link-005
+    400046: Chain-Link-006
+    400048: Chain-Link-007
+    400050: Chain-Link-008
+    2100000: Center-Support
+    2100002: Chain-Link
+    2100004: Arm
+    2100006: Arc
+    2100008: Candle-Holder
+    2100010: Ring-Bottom
+    2300000: Arc-Mesh-001
+    2300002: Arc-Mesh-002
+    2300004: Arc-Mesh-003
+    2300006: Arc-Mesh-004
+    2300008: Arc-Mesh-005
+    2300010: Base-Ring.001
+    2300012: Candle-Holder-001.001
+    2300014: Candle-Holder-002.001
+    2300016: Candle-Holder-003.001
+    2300018: Candle-Holder-004.001
+    2300020: Candle-Holder-005.001
+    2300022: Candle-Holder-Arm-001
+    2300024: Candle-Holder-Arm-002
+    2300026: Candle-Holder-Arm-003
+    2300028: Candle-Holder-Arm-004
+    2300030: Candle-Holder-Arm-005
+    2300032: Center-Support
+    2300034: Chain-Link-001
+    2300036: Chain-Link-002
+    2300038: Chain-Link-003
+    2300040: Chain-Link-004
+    2300042: Chain-Link-005
+    2300044: Chain-Link-006
+    2300046: Chain-Link-007
+    2300048: Chain-Link-008
+    3300000: Arc-Mesh-001
+    3300002: Arc-Mesh-002
+    3300004: Arc-Mesh-003
+    3300006: Arc-Mesh-004
+    3300008: Arc-Mesh-005
+    3300010: Base-Ring.001
+    3300012: Candle-Holder-001.001
+    3300014: Candle-Holder-002.001
+    3300016: Candle-Holder-003.001
+    3300018: Candle-Holder-004.001
+    3300020: Candle-Holder-005.001
+    3300022: Candle-Holder-Arm-001
+    3300024: Candle-Holder-Arm-002
+    3300026: Candle-Holder-Arm-003
+    3300028: Candle-Holder-Arm-004
+    3300030: Candle-Holder-Arm-005
+    3300032: Center-Support
+    3300034: Chain-Link-001
+    3300036: Chain-Link-002
+    3300038: Chain-Link-003
+    3300040: Chain-Link-004
+    3300042: Chain-Link-005
+    3300044: Chain-Link-006
+    3300046: Chain-Link-007
+    3300048: Chain-Link-008
+    4300000: Center-Support
+    4300002: Chain-Link-005
+    4300004: Candle-Holder-Arm-005
+    4300006: Arc-Mesh-005
+    4300008: Candle-Holder-005.001
+    4300010: Base-Ring.001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
