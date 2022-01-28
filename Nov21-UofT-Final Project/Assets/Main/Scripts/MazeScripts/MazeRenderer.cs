@@ -72,7 +72,6 @@ public class MazeRenderer : MonoBehaviour
                         var bottomwall = Instantiate(wallPrefab, transform) as Transform;
                         bottomwall.position = position + new Vector3(0, 0, -size / 2);
                         bottomwall.localScale = new Vector3(size, bottomwall.localScale.y, bottomwall.localScale.z);
-                        bottomwall.eulerAngles = new Vector3(0, 90, 0);
                     }
                 }
             }
