@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
+
 public class PlayVideo : MonoBehaviour
 {
     public GameObject videoPlane;
@@ -12,7 +13,7 @@ public class PlayVideo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        videoPlayer = GetComponent<VideoPlayer>();
+        videoPlayer = videoPlane.GetComponent<VideoPlayer>();
         enable = false;
     }
 
@@ -24,7 +25,7 @@ public class PlayVideo : MonoBehaviour
     public void PlayVideoOnPlane()
     {
         enable = !enable;
-        if(enable == false)
+        if (enable == false)
         {
             videoPlayer.Pause();
         }
@@ -33,6 +34,10 @@ public class PlayVideo : MonoBehaviour
             videoPlayer.Play();
         }
     }
+
+    /// <summary>
+    /// Do something on End video
+    /// </summary>
     private void OnEndVideo()
     {
 
