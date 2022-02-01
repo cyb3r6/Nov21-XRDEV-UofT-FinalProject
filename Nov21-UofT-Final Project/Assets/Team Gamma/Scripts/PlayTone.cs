@@ -14,6 +14,9 @@ public class PlayTone : MonoBehaviour
 
     public void PlaySound()
     {
-        audioSource.PlayOneShot(tone);
+        if(!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(tone);
+        }
     }
 }

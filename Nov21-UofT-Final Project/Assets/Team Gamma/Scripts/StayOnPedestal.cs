@@ -5,16 +5,18 @@ public class StayOnPedestal : MonoBehaviour
 {
     /// 1: Blue
     //  2: Green 
-    //  3: Yellow 
-    //  4: Red
+    //  3: Red 
+    //  4: Yellow
 
-    public bool sphere1Correct = false;
-    public bool sphere2Correct = false;
-    public bool sphere3Correct = false;
-    public bool sphere4Correct = false;
+    public static bool sphere1Correct;
+    public static bool sphere2Correct;
+    public static bool sphere3Correct;
+    public static bool sphere4Correct;
     public int correctSphereValue;
     private int insertedSphereValue;
-        float speed = 0.1f;
+    float speed = 0.1f;
+    public AudioClip fanfare;
+    public AudioSource audioSource;
 
     public BoxCollider dropZone;
   
@@ -34,20 +36,17 @@ public class StayOnPedestal : MonoBehaviour
         {
             insertedSphereValue = 2;
         }
-        else if (sphere.gameObject.tag == "SphereYellow")
+        else if (sphere.gameObject.tag == "SphereRed")
         {
             insertedSphereValue = 3;
         }
-        else if (sphere.gameObject.tag == "SphereRed")
+        else if (sphere.gameObject.tag == "SphereYellow")
         {
             insertedSphereValue = 4;
         }
 
         if (correctSphereValue == insertedSphereValue)
         {
-            sphere1Correct = true;
-            Debug.Log("First correct sphere placed. Keep trying!");
-
             switch(insertedSphereValue)
             {
                 case 1:
@@ -59,30 +58,30 @@ public class StayOnPedestal : MonoBehaviour
                     sphere2Correct = true;
                     break;
                 case 3:
-                    Debug.Log("Yellow sphere correctly placed");
+                    Debug.Log("Red sphere correctly placed");
                     sphere3Correct = true;
                     break;
                 case 4:
-                    Debug.Log("Red sphere correctly placed");
+                    Debug.Log("Yellow sphere correctly placed");
                     sphere4Correct = true;
                     break;
                 default: 
                     break;
             }
         }
-
-        if (sphere1Correct && sphere2Correct && sphere3Correct && sphere4Correct)
-        {
-            Debug.Log("Congratulations!! You win!");
-        }
     }
 
     public void OnTriggerEnter(Collider sphere) 
     {
         sphere.GetComponent<Rigidbody>().useGravity = false;
+
+        if (sphere1Correct && sphere2Correct && sphere3Correct && sphere4Correct)
+        {
+            audioSource.GetComponent<AudioSource>().PlayOneShot(fanfare);
+        }
     }
 
-    public void OnTriggerExit(Collider sphere) 
+    void OnTriggerExit(Collider sphere) 
     {
         sphere.GetComponent<Rigidbody>().useGravity = true;
     }
