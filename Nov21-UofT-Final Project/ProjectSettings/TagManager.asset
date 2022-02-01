@@ -9,6 +9,7 @@ TagManager:
   - SphereGreen
   - SphereYellow
   - SpherePurple
+  - pedestal
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - NonCollidable
+  - Player
   - 
   - 
   - 

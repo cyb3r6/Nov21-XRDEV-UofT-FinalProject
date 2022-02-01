@@ -6,27 +6,23 @@ public class StayOnPedestal : MonoBehaviour
     /// 1: Blue
     //  2: Green 
     //  3: Yellow 
-    //  4: Purple 
-    //  5: Red
+    //  4: Red
 
     public bool sphere1Correct = false;
     public bool sphere2Correct = false;
     public bool sphere3Correct = false;
     public bool sphere4Correct = false;
-    public bool sphere5Correct = false;
     public int correctSphereValue;
     private int insertedSphereValue;
-    private bool occupied = false;
+        float speed = 0.1f;
 
     public BoxCollider dropZone;
   
     public void OnTriggerStay(Collider sphere) 
     {
-        float speed = 0.1f;
         float step = speed * Time.deltaTime;
         Vector3 newSpherePosition = sphere.transform.position;
 
-        sphere.GetComponent<Rigidbody>().useGravity = false;
         newSpherePosition = getNewSpherePosition();
         sphere.transform.position = Vector3.MoveTowards(sphere.transform.position, newSpherePosition, step);
 
@@ -42,13 +38,9 @@ public class StayOnPedestal : MonoBehaviour
         {
             insertedSphereValue = 3;
         }
-        else if (sphere.gameObject.tag == "SpherePurple")
-        {
-            insertedSphereValue = 4;
-        }
         else if (sphere.gameObject.tag == "SphereRed")
         {
-            insertedSphereValue = 5;
+            insertedSphereValue = 4;
         }
 
         if (correctSphereValue == insertedSphereValue)
@@ -71,22 +63,23 @@ public class StayOnPedestal : MonoBehaviour
                     sphere3Correct = true;
                     break;
                 case 4:
-                    Debug.Log("Purple sphere correctly placed");
-                    sphere4Correct = true;
-                    break;
-                case 5:
                     Debug.Log("Red sphere correctly placed");
-                    sphere5Correct = true;
+                    sphere4Correct = true;
                     break;
                 default: 
                     break;
             }
         }
 
-        if (sphere1Correct && sphere2Correct && sphere3Correct && sphere4Correct && sphere5Correct)
+        if (sphere1Correct && sphere2Correct && sphere3Correct && sphere4Correct)
         {
-            Debug.Log("Congratulations!! You wni! Pretend a door opened somewhere.");
+            Debug.Log("Congratulations!! You win!");
         }
+    }
+
+    public void OnTriggerEnter(Collider sphere) 
+    {
+        sphere.GetComponent<Rigidbody>().useGravity = false;
     }
 
     public void OnTriggerExit(Collider sphere) 
