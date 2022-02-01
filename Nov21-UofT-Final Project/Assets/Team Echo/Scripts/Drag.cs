@@ -7,6 +7,13 @@ public class Drag : MonoBehaviour
 {
     public static event Action PuzzleDone = delegate { };
 
+    [SerializeField]
+    private Transform standPosition;
+
+    private Vector3 initialPosition;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
