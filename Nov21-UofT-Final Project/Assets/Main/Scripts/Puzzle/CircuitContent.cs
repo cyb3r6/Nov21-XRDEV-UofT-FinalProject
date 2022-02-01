@@ -28,7 +28,7 @@ public class CircuitContent : MonoBehaviour
 
     bool canComplete = false;
 
-    private List<string> currentComponent = new List<string>();
+    public List<string> currentComponent = new List<string>();
     private int energy = 0;
 
 

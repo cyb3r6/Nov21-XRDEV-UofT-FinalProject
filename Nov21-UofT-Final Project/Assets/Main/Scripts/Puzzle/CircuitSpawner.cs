@@ -5,7 +5,7 @@ using UnityEngine;
 public class CircuitSpawner : MonoBehaviour
 {
     public GameObject correctPrefab;
-    public GameObject[] incorrectPrefab;
+    public GameObject incorrectPrefab;
 
 
     public void OnCircuit(CircuitContent.Circuit circuit)
@@ -16,7 +16,7 @@ public class CircuitSpawner : MonoBehaviour
         }
         else
         {
-            Instantiate(incorrectPrefab[Random.Range(0, incorrectPrefab.Length)]);
+            Instantiate(incorrectPrefab);
         }
     }
 }
