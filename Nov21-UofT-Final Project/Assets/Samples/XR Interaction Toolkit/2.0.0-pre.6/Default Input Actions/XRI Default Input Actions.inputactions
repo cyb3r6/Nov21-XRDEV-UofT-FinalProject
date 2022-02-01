@@ -623,7 +623,7 @@
                 {
                     "name": "",
                     "id": "76e12917-a68a-48a4-a2b9-cfc3e44cebc8",
-                    "path": "<XRController>{LeftHand}/touchpadTouch",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

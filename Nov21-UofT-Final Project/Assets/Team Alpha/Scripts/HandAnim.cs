@@ -12,8 +12,13 @@ public class HandAnim : MonoBehaviour
     [SerializeField]
     private InputActionProperty point;
     [SerializeField]
-    
     private InputActionProperty thumbs;
+
+    private float flexnumber1;
+
+    private float thumbnumber;
+
+    private float pointnumber;
     public void Awake()
     {
         animator = GetComponent<Animator>();
@@ -23,5 +28,12 @@ public class HandAnim : MonoBehaviour
         animator.SetFloat("ControllerSelect", flex.action.ReadValue<float>());
         animator.SetFloat("ControllerActive", point.action.ReadValue<float>());
         animator.SetFloat("ControllerActivate", thumbs.action.ReadValue<float>());
+        flexnumber1 = flex.action.ReadValue<float>();
+        thumbnumber = thumbs.action.ReadValue<float>();
+        pointnumber = point.action.ReadValue<float>();
+        if(flexnumber1 >= .85f && thumbnumber >= .85f && pointnumber >= .85f)
+        {
+            animator.Play("Fist_Pose");
+        }
     }
 }
