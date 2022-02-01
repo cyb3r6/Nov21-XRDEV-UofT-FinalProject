@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Rock
+  - Fire
+  - Rock2
   layers:
   - Default
   - TransparentFX
