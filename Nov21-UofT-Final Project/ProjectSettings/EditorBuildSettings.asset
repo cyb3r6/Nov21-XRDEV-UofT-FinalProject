@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Main/Scenes/Maze.unity
+    guid: 912fea2ad4544484581f1eea24c438ae
+  - enabled: 1
+    path: Assets/Team Echo/Echo.unity
+    guid: e62916ed4ca0c704a877ee53dd417bf7
+  - enabled: 1
+    path: Assets/Team Gamma/Gamma.unity
+    guid: 33d793837df8ea147913fa7422eb8eca
+  - enabled: 1
+    path: Assets/Team Nakisa4prez/Scenes/Nakisa4prez.unity
+    guid: bd1e106f49ded1544aa76ee3c92d92d9
+  - enabled: 1
+    path: Assets/Team Beta/Scenes/Beta.unity
+    guid: 409b433d0b7bb104399c6221b0baed4b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6bb34b4b04fa5954c9f85f2758b5b91e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 010d439034aef3a4dac32269d2c4feab, type: 2}

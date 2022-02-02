@@ -20,6 +20,8 @@ public class PuzzleManager : MonoBehaviour
     // whether or not the user is eligible to start guessing
     private bool userInteractionTracked = false;
 
+    public VRScenes scene;
+
     private void Start()
     {
         displayText.text = "Match the color sequence";
@@ -80,6 +82,7 @@ public class PuzzleManager : MonoBehaviour
             {
                 displayText.text = "Well done!";
                 Debug.Log("You Win!");
+                VRSceneManager.instance.ChangeScenes(scene);
             } 
             else
             {

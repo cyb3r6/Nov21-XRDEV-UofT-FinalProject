@@ -5,6 +5,7 @@ using UnityEngine;
 public class ColorCodeScript : MonoBehaviour
 {
     private int Code;
+    public GameObject Door;
     void Start()
     {
         Code = 0; 
@@ -29,6 +30,7 @@ public class ColorCodeScript : MonoBehaviour
         if (Code == 1)
         {
             Code++;
+            Debug.Log("Purple Pushed");
         }
 
         else if (Code != 1)
@@ -42,6 +44,7 @@ public class ColorCodeScript : MonoBehaviour
         if (Code == 2)
         {
             Code++;
+            Debug.Log("Orange Pushed");
         }
 
         else if (Code != 2)
@@ -55,6 +58,7 @@ public class ColorCodeScript : MonoBehaviour
         if (Code == 3)
         {
             Code++;
+            Debug.Log("Yellow Pushed");
         }
 
         else if (Code != 3)
@@ -62,4 +66,13 @@ public class ColorCodeScript : MonoBehaviour
             Code = 0;
         }
     }
+
+    public void Update()
+    {
+        if (Code == 4)
+        {
+            Door.SetActive(false);
+        }
+    }
+
 }

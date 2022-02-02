@@ -7,7 +7,7 @@ public class MazeGame : MonoBehaviour
     [SerializeField]
     private MazeRenderer mazeRenderer;
 
-    public BeginningEnd finishSphere;
+    public GameObject finishSphere;
 
 
     void Start()

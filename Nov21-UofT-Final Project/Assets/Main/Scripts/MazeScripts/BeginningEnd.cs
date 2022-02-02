@@ -12,7 +12,7 @@ public enum StartFinish
 public class BeginningEnd : MonoBehaviour
 {
     public StartFinish end = StartFinish.Start;
-
+    public VRScenes scene;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Player"))
@@ -24,6 +24,9 @@ public class BeginningEnd : MonoBehaviour
             else
             {
                 Debug.Log("Hit end");
+
+                VRSceneManager.instance.ChangeScenes(scene);
+
             }
         }
     }
