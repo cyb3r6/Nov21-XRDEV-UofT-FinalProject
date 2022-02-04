@@ -525,24 +525,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292813396}
   m_CullTransparentMesh: 1
---- !u!1 &324162860 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3021125183030239131, guid: a0f0574e283bed648b7dbd976dfcb444, type: 3}
-  m_PrefabInstance: {fileID: 1089597246}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &324162861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324162860}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &324162864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3021125183030239130, guid: a0f0574e283bed648b7dbd976dfcb444, type: 3}
@@ -656,6 +638,9 @@ MonoBehaviour:
   - {fileID: 986257375}
   totalBlinksInSequence: 3
   displayText: {fileID: 292813398}
+  sequence: 
+  guesses: 
+  scene: 0
 --- !u!4 &455233746
 Transform:
   m_ObjectHideFlags: 0
